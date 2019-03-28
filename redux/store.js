@@ -1,5 +1,12 @@
 import { createStore } from "redux";
 import initialState from './initialState';
+import {
+  leaderboardReducer,
+  playerInfoReducer,
+  gameDataReducer,
+  questionReducer,
+  modalsReducer,
+ } from "./reducer";
 
 
 const rootReducer = combineReducers({
