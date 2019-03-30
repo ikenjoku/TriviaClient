@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Root } from "native-base";
 
 import store from "./redux/store";
-import MainLayout from './components/MainLayout.<android|ios>.js:MainLayout';
+import MainLayout from './components/MainLayout';
 export default class App extends Component {
   constructor(props) {
     super(props);

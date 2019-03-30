@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
-export default class GameHomeScreen extends React.Component {
+export default class GameHomeScreen extends Component {
   constructor(inProps) {
     super(inProps);
     CoreCode.mainNavigator = inProps.navigation;

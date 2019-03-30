@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { connect } from "react-redux";
 import { View, StyleSheet, Modal, Switch } from "react-native";
 import { Item, Label } from "native-base";
+import { connect } from 'react-redux'
 
 class NamePromptModal extends Component {
   constructor(inProps) {
